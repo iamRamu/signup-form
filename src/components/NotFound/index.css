@@ -1,0 +1,10 @@
+.NotFound-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.NotFound-img{
+    height: 300px;
+    width: 300px;
+}

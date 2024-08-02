@@ -1,0 +1,29 @@
+.browseBook-container{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.browser-container1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+}
+.browseBook-img{
+    height: 350px;
+    width: 300px;
+}
+.book-not-found{
+    text-align: center;
+}
+.back-button{
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: Roboto;
+    cursor: pointer;
+    background-color: rgb(12, 82, 222);
+    color: #ffffff;
+}

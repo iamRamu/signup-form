@@ -1,0 +1,143 @@
+.teacher-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, black, black);
+    min-height: 100vh; 
+    padding: 20px;
+    background-size: cover;
+}
+.teacher-heading{
+    color: orange;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.input-container{
+    display: flex;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 8px;
+    width: 300px;
+}
+.books-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.search-bar{
+    outline: none;
+    font-family: Roboto;
+    border: none;
+    width: 90%;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.img-size{
+    width: 18px;
+}
+.add-book{
+    background-color: #1539eb;
+    color: #ffffff;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 9px;
+}
+.books-container1{
+    /* background-color: #ffffff; */
+    background-image: linear-gradient(to right, #ecf545, #8545f5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 90%;
+    margin-top: 30px;
+    min-height: 580px;
+    border-radius: 50px;
+    
+}
+.blur-style{
+    filter: blur(8px);
+}
+.read-more-button{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 100px;
+    font-family: Roboto;
+    background-color: transparent;
+    cursor: pointer;
+    width: 85px;
+}
+.popup-bg-container{
+    background-color: black;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    /* -webkit-filter: blur(8px);  */
+     /* filter: blur(1px); */
+    margin-top: -20px;
+}
+.popup-container{
+    background-color: white ;
+    font-family: Bree Georgia, 'Times New Roman', Times, serif;
+    height: 350px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.popup-input{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 3px;
+    padding-left: 8px;
+    font-family: Roboto;
+    width: 350px;
+    height: 30px;
+}
+.cross-button{
+    width: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+    
+    color: red;
+    display: flex;
+    align-self: center;
+}
+.add-book-button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Roboto;
+    background-color: #1539eb;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
