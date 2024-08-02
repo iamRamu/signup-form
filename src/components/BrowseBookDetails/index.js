@@ -44,7 +44,7 @@ const BrowseBookDetails = () => {
                 </div>
 
                 <div className="browser-container2">
-                    <img src={data.image_url} className="browseBook-img"/>
+                    <img src={data.image_url} className="browseBook-img" alt="img"/>
                 </div>
                 
                 

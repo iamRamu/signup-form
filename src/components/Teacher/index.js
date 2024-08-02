@@ -263,7 +263,7 @@ const Teacher = () => {
             <h1 className='teacher-heading'>This is Teacher DashBoard</h1>
             <div className='books-container'>
                 <div className='input-container'> 
-                    <input onChange={e => setUserInput(e.target.value)} className='search-bar' placeholder='Search Teacher Related Books'/>
+                    <input onChange={e => setUserInput(e.target.value)} className='search-bar' placeholder='Search Teacher Related Books' alt='img'/>
                     <img src='https://www.svgrepo.com/show/7109/search.svg' className='img-size' alt='search-icon'/>
                 </div>
                 <button className='add-book' onClick={() => setIsAddBookClicked(true)}>Add+</button>

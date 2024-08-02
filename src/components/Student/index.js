@@ -231,7 +231,7 @@ const Student = () => {
             <h1 className='teacher-heading'>This is Student DashBoard</h1>
             <div className='books-container'>
                 <div className='input-container'> 
-                    <input onChange={e => setUserInput(e.target.value)} className='search-bar' placeholder='Search Student Related Books'/>
+                    <input onChange={e => setUserInput(e.target.value)} className='search-bar' placeholder='Search Student Related Books' alt='img'/>
                     <img src='https://www.svgrepo.com/show/7109/search.svg' className='img-size' alt='search-icon'/>
                 </div>
 
